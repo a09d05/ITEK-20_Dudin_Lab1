@@ -19,46 +19,46 @@ namespace ЛБ2_05._03._22
 
         private void button1_Click(object sender, EventArgs e) // сложение
         {
-            int a, b;
-            a = Int32.Parse(textBox1.Text);
-            b = Int32.Parse(textBox2.Text);
+            double a, b;
+            a = Double.Parse(textBox1.Text);
+            b = Double.Parse(textBox2.Text);
 
-            int c = a + b;
+            double c = a + b;
             textBox3.Text = c.ToString();
             label5.Text = "Сложение";
         }
 
         private void button2_Click(object sender, EventArgs e) // вычитание
         {
-            int a, b;
-            a = Int32.Parse(textBox1.Text);
-            b = Int32.Parse(textBox2.Text);
+            double a, b;
+            a = Double.Parse(textBox1.Text);
+            b = Double.Parse(textBox2.Text);
 
-            int c = a - b;
+            double c = a - b;
             textBox3.Text = c.ToString();
             label5.Text = "Вычитание";
         }
 
         private void button3_Click(object sender, EventArgs e) // умножение 
         {
-            int a, b;
-            a = Int32.Parse(textBox1.Text);
-            b = Int32.Parse(textBox2.Text);
+            double a, b;
+            a = Double.Parse(textBox1.Text);
+            b = Double.Parse(textBox2.Text);
 
-            int c = a * b;
+            double c = a * b;
             textBox3.Text = c.ToString();
             label5.Text = "Умножение";
         }
 
         private void button4_Click(object sender, EventArgs e) // деление
         {
-            int a, b;
-            a = Int32.Parse(textBox1.Text);
-            b = Int32.Parse(textBox2.Text);
+            double a, b;
+            a = Double.Parse(textBox1.Text);
+            b = Double.Parse(textBox2.Text);
 
             if(b != 0)
             {
-                int c = a / b;
+                double c = a / b;
                 textBox3.Text = c.ToString();
                 label5.Text = "Деление";
             }
